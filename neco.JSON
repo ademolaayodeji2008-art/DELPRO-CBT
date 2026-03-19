@@ -1,0 +1,10 @@
+[
+  {
+    "id": 1,
+    "exam": "NECO",
+    "subject": "Government",
+    "question": "A system of government where power is held by the people is called?",
+    "options": ["A. Monarchy", "B. Democracy", "C. Oligarchy", "D. Autocracy"],
+    "answer": "1" 
+  }
+]

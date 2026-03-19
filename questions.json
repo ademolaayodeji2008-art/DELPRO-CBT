@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "exam": "jamb",
+    "subject": "english",
+    "question": "Choose the option nearest in meaning to the italicized word: The principal is known for his *integrity*.",
+    "options": ["A. Wealth", "B. Honesty", "C. Power", "D. Intelligence"],
+    "answer": "B. Honesty"
+  },
+  {
+    "id": 2,
+    "exam": "waec",
+    "subject": "mathematics",
+    "question": "Simplify: 2x + 3x - x",
+    "options": ["A. 2x", "B. 3x", "C. 4x", "D. 5x"],
+    "answer": "C. 4x"
+  }
+]

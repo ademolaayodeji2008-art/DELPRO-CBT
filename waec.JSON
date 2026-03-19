@@ -1,0 +1,25 @@
+[
+  {
+    "id": 1,
+    "exam": "WAEC",
+    "subject": "Mathematics",
+    "question": "Simplify: 2x + 3x - x",
+    "options": ["A. 2x", "B. 3x", "C. 4x", "D. 5x"],  
+    "answer": "2" 
+  },
+  {
+    "id": 2,
+    "exam": "WAEC",
+    "subject": "Biology",
+    "question": "The powerhouse of the cell is the:",
+    "options": ["A. Nucleus", "B. Cytoplasm", "C. Mitochondrion", "D. Ribosome"],
+    "answer": "2" 
+  }
+]ALOC-a8e00470020b18e5852d
+pk_test_dd596d986540e7b65dc06ecc37ad03b9465a660f
+  apiKey: "AIzaSyBFrbQMjOKzgvMIWBcMmgp7fwa3RlxIEUs",
+  authDomain: "cbt-app-b7233.firebaseapp.com",
+  projectId: "cbt-app-b7233",
+  storageBucket: "cbt-app-b7233.firebasestorage.app",
+  messagingSenderId: "98158010166",
+  appId: "1:98158010166:web:a92569b3f1b0018ed59d97"
