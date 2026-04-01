@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,16 +8,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
     <div class="app-wrapper">
-
+        
         <div class="header-nav">
             <div class="logo">
                 <i class="fas fa-layer-group" style="color: #278168;"></i> ExamPrep
             </div>
-
+            
             <div id="logged-out-nav">
                 <button id="nav-login-btn" class="btn-nav-outline">Sign In</button>
                 <button id="nav-signup-btn" class="btn-nav-solid">Sign Up</button>
@@ -36,12 +34,10 @@
                     <div class="auth-brand-content">
                         <h2><i class="fas fa-layer-group"></i> ExamPrep</h2>
                         <h1>Master your exams with real past questions.</h1>
-                        <p>Join thousands of students scoring higher in JAMB, WAEC, and NECO using our smart CBT
-                            simulator.</p>
+                        <p>Join thousands of students scoring higher in JAMB, WAEC, and NECO using our smart CBT simulator.</p>
                         <div class="auth-features">
                             <div class="feature-item"><i class="fas fa-check-circle"></i> 50,000+ Past Questions</div>
-                            <div class="feature-item"><i class="fas fa-check-circle"></i> Detailed Performance Tracking
-                            </div>
+                            <div class="feature-item"><i class="fas fa-check-circle"></i> Detailed Performance Tracking</div>
                             <div class="feature-item"><i class="fas fa-check-circle"></i> Official Exam Interface</div>
                         </div>
                     </div>
@@ -66,20 +62,17 @@
                             <label class="remember-me"><input type="checkbox"> Remember me</label>
                             <a href="#" class="forgot-pwd">Forgot Password?</a>
                         </div>
-                        <p id="auth-error" style="color: #d9534f; font-size: 0.9rem; margin: 10px 0; display: none;">
-                        </p>
-
-                        <button type="submit" id="auth-btn" class="btn btn-study"
-                            style="width: 100%; padding: 14px; font-size: 1.1rem;">Sign In</button>
-
+                        <p id="auth-error" style="color: #d9534f; font-size: 0.9rem; margin: 10px 0; display: none;"></p>
+                        
+                        <button type="submit" id="auth-btn" class="btn btn-study" style="width: 100%; padding: 14px; font-size: 1.1rem;">Sign In</button>
+                        
                         <div class="auth-divider"><span>OR</span></div>
-
+                        
                         <button type="button" class="btn-google">
-                            <img src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg"
-                                alt="Google Logo">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg" alt="Google Logo">
                             Continue with Google
                         </button>
-
+                        
                         <p class="auth-switch">
                             <span id="auth-switch-text">Don't have an account?</span>
                             <a href="#" id="auth-toggle-link">Sign Up</a>
@@ -95,24 +88,15 @@
                 <p>Select your target exam to access past questions.</p>
                 <div class="trial-badge" id="trial-counter-badge">Loading Account Data...</div>
             </div>
-
+            
             <div class="grid-container">
                 <div class="exam-card" data-exam="JAMB-DRILL" style="border: 2px solid #f79a00; background: #fffdfa;">
                     <h2>🔥 JAMB Full Simulator</h2>
                     <p>Standard 2-hour drill. English + 3 Subjects of your choice.</p>
                 </div>
-                <div class="exam-card" data-exam="JAMB">
-                    <h2>JAMB (Single Subject)</h2>
-                    <p>Practice one subject at a time.</p>
-                </div>
-                <div class="exam-card" data-exam="WAEC">
-                    <h2>WAEC</h2>
-                    <p>Objectives & Theory Questions.</p>
-                </div>
-                <div class="exam-card" data-exam="NECO">
-                    <h2>NECO</h2>
-                    <p>National Examinations Council.</p>
-                </div>
+                <div class="exam-card" data-exam="JAMB"><h2>JAMB (Single Subject)</h2><p>Practice one subject at a time.</p></div>
+                <div class="exam-card" data-exam="WAEC"><h2>WAEC</h2><p>Objectives & Theory Questions.</p></div>
+                <div class="exam-card" data-exam="NECO"><h2>NECO</h2><p>National Examinations Council.</p></div>
             </div>
         </section>
 
@@ -132,20 +116,16 @@
                     <label class="drill-subject"><input type="checkbox" value="Physics"> Physics</label>
                     <label class="drill-subject"><input type="checkbox" value="Chemistry"> Chemistry</label>
                     <label class="drill-subject"><input type="checkbox" value="Biology"> Biology</label>
-                    <label class="drill-subject"><input type="checkbox" value="Agricultural Science"> Agric
-                        Science</label>
+                    <label class="drill-subject"><input type="checkbox" value="Agricultural Science"> Agric Science</label>
                     <label class="drill-subject"><input type="checkbox" value="Economics"> Economics</label>
                     <label class="drill-subject"><input type="checkbox" value="Government"> Government</label>
-                    <label class="drill-subject"><input type="checkbox" value="Literature-in-English">
-                        Literature</label>
+                    <label class="drill-subject"><input type="checkbox" value="Literature-in-English"> Literature</label>
                     <label class="drill-subject"><input type="checkbox" value="Geography"> Geography</label>
                     <label class="drill-subject"><input type="checkbox" value="CRK"> CRK</label>
                     <label class="drill-subject"><input type="checkbox" value="Commerce"> Commerce</label>
                     <label class="drill-subject"><input type="checkbox" value="Financial Accounting"> Accounting</label>
                 </div>
-                <button id="start-jamb-drill-btn" class="btn btn-exam"
-                    style="width: 100%; padding: 15px; font-size: 1.2rem; margin-top: 20px;" disabled>Select 3 more
-                    subjects to start</button>
+                <button id="start-jamb-drill-btn" class="btn btn-exam" style="width: 100%; padding: 15px; font-size: 1.2rem; margin-top: 20px;" disabled>Select 3 more subjects to start</button>
             </div>
         </section>
 
@@ -157,292 +137,196 @@
             </div>
 
             <div class="grid-container subject-grid">
-
+                
                 <div class="subject-card" data-available-for="JAMB WAEC NECO">
                     <div class="card-content">
-                        <div class="icon-box" style="background-color: #ffeef2;"><i class="fas fa-book"
-                                style="color: #ff4d6d;"></i></div>
-                        <div class="text-box">
-                            <h2>English</h2>
-                        </div>
+                        <div class="icon-box" style="background-color: #ffeef2;"><i class="fas fa-book" style="color: #ff4d6d;"></i></div>
+                        <div class="text-box"><h2>English</h2></div>
                     </div>
                     <div class="card-actions">
-                        <button class="btn btn-study start-study-btn" data-subject="English"><i
-                                class="fas fa-book-open"></i> Study</button>
-                        <button class="btn btn-exam start-exam-btn" data-subject="English"><i
-                                class="fas fa-stopwatch"></i> Exam</button>
-                        <button class="btn btn-theory start-theory-btn" data-subject="English" style="display: none;"><i
-                                class="fas fa-pen-nib"></i> Theory</button>
+                        <button class="btn btn-study start-study-btn" data-subject="English"><i class="fas fa-book-open"></i> Study</button>
+                        <button class="btn btn-exam start-exam-btn" data-subject="English"><i class="fas fa-stopwatch"></i> Exam</button>
+                        <button class="btn btn-theory start-theory-btn" data-subject="English" style="display: none;"><i class="fas fa-pen-nib"></i> Theory</button>
                     </div>
                 </div>
 
                 <div class="subject-card" data-available-for="JAMB WAEC NECO">
                     <div class="card-content">
-                        <div class="icon-box" style="background-color: #e6f0fd;"><i class="fas fa-calculator"
-                                style="color: #0066ff;"></i></div>
-                        <div class="text-box">
-                            <h2>Mathematics</h2>
-                        </div>
+                        <div class="icon-box" style="background-color: #e6f0fd;"><i class="fas fa-calculator" style="color: #0066ff;"></i></div>
+                        <div class="text-box"><h2>Mathematics</h2></div>
                     </div>
                     <div class="card-actions">
-                        <button class="btn btn-study start-study-btn" data-subject="Mathematics"><i
-                                class="fas fa-book-open"></i> Study</button>
-                        <button class="btn btn-exam start-exam-btn" data-subject="Mathematics"><i
-                                class="fas fa-stopwatch"></i> Exam</button>
-                        <button class="btn btn-theory start-theory-btn" data-subject="Mathematics"
-                            style="display: none;"><i class="fas fa-pen-nib"></i> Theory</button>
+                        <button class="btn btn-study start-study-btn" data-subject="Mathematics"><i class="fas fa-book-open"></i> Study</button>
+                        <button class="btn btn-exam start-exam-btn" data-subject="Mathematics"><i class="fas fa-stopwatch"></i> Exam</button>
+                        <button class="btn btn-theory start-theory-btn" data-subject="Mathematics" style="display: none;"><i class="fas fa-pen-nib"></i> Theory</button>
                     </div>
                 </div>
 
                 <div class="subject-card" data-available-for="JAMB WAEC NECO">
                     <div class="card-content">
-                        <div class="icon-box" style="background-color: #e8f5e9;"><i class="fas fa-leaf"
-                                style="color: #2e7d32;"></i></div>
-                        <div class="text-box">
-                            <h2>Biology</h2>
-                        </div>
+                        <div class="icon-box" style="background-color: #e8f5e9;"><i class="fas fa-leaf" style="color: #2e7d32;"></i></div>
+                        <div class="text-box"><h2>Biology</h2></div>
                     </div>
                     <div class="card-actions">
-                        <button class="btn btn-study start-study-btn" data-subject="Biology"><i
-                                class="fas fa-book-open"></i> Study</button>
-                        <button class="btn btn-exam start-exam-btn" data-subject="Biology"><i
-                                class="fas fa-stopwatch"></i> Exam</button>
-                        <button class="btn btn-theory start-theory-btn" data-subject="Biology" style="display: none;"><i
-                                class="fas fa-pen-nib"></i> Theory</button>
+                        <button class="btn btn-study start-study-btn" data-subject="Biology"><i class="fas fa-book-open"></i> Study</button>
+                        <button class="btn btn-exam start-exam-btn" data-subject="Biology"><i class="fas fa-stopwatch"></i> Exam</button>
+                        <button class="btn btn-theory start-theory-btn" data-subject="Biology" style="display: none;"><i class="fas fa-pen-nib"></i> Theory</button>
                     </div>
                 </div>
 
                 <div class="subject-card" data-available-for="JAMB WAEC NECO">
                     <div class="card-content">
-                        <div class="icon-box" style="background-color: #f3e5f5;"><i class="fas fa-atom"
-                                style="color: #8e24aa;"></i></div>
-                        <div class="text-box">
-                            <h2>Physics</h2>
-                        </div>
+                        <div class="icon-box" style="background-color: #f3e5f5;"><i class="fas fa-atom" style="color: #8e24aa;"></i></div>
+                        <div class="text-box"><h2>Physics</h2></div>
                     </div>
                     <div class="card-actions">
-                        <button class="btn btn-study start-study-btn" data-subject="Physics"><i
-                                class="fas fa-book-open"></i> Study</button>
-                        <button class="btn btn-exam start-exam-btn" data-subject="Physics"><i
-                                class="fas fa-stopwatch"></i> Exam</button>
-                        <button class="btn btn-theory start-theory-btn" data-subject="Physics" style="display: none;"><i
-                                class="fas fa-pen-nib"></i> Theory</button>
+                        <button class="btn btn-study start-study-btn" data-subject="Physics"><i class="fas fa-book-open"></i> Study</button>
+                        <button class="btn btn-exam start-exam-btn" data-subject="Physics"><i class="fas fa-stopwatch"></i> Exam</button>
+                        <button class="btn btn-theory start-theory-btn" data-subject="Physics" style="display: none;"><i class="fas fa-pen-nib"></i> Theory</button>
                     </div>
                 </div>
 
                 <div class="subject-card" data-available-for="JAMB WAEC NECO">
                     <div class="card-content">
-                        <div class="icon-box" style="background-color: #fff3e0;"><i class="fas fa-flask"
-                                style="color: #ef6c00;"></i></div>
-                        <div class="text-box">
-                            <h2>Chemistry</h2>
-                        </div>
+                        <div class="icon-box" style="background-color: #fff3e0;"><i class="fas fa-flask" style="color: #ef6c00;"></i></div>
+                        <div class="text-box"><h2>Chemistry</h2></div>
                     </div>
                     <div class="card-actions">
-                        <button class="btn btn-study start-study-btn" data-subject="Chemistry"><i
-                                class="fas fa-book-open"></i> Study</button>
-                        <button class="btn btn-exam start-exam-btn" data-subject="Chemistry"><i
-                                class="fas fa-stopwatch"></i> Exam</button>
-                        <button class="btn btn-theory start-theory-btn" data-subject="Chemistry"
-                            style="display: none;"><i class="fas fa-pen-nib"></i> Theory</button>
+                        <button class="btn btn-study start-study-btn" data-subject="Chemistry"><i class="fas fa-book-open"></i> Study</button>
+                        <button class="btn btn-exam start-exam-btn" data-subject="Chemistry"><i class="fas fa-stopwatch"></i> Exam</button>
+                        <button class="btn btn-theory start-theory-btn" data-subject="Chemistry" style="display: none;"><i class="fas fa-pen-nib"></i> Theory</button>
                     </div>
                 </div>
 
                 <div class="subject-card" data-available-for="JAMB WAEC NECO">
                     <div class="card-content">
-                        <div class="icon-box" style="background-color: #e0f2f1;"><i class="fas fa-tractor"
-                                style="color: #00796b;"></i></div>
-                        <div class="text-box">
-                            <h2>Agricultural Science</h2>
-                        </div>
+                        <div class="icon-box" style="background-color: #e0f2f1;"><i class="fas fa-tractor" style="color: #00796b;"></i></div>
+                        <div class="text-box"><h2>Agricultural Science</h2></div>
                     </div>
                     <div class="card-actions">
-                        <button class="btn btn-study start-study-btn" data-subject="Agricultural Science"><i
-                                class="fas fa-book-open"></i> Study</button>
-                        <button class="btn btn-exam start-exam-btn" data-subject="Agricultural Science"><i
-                                class="fas fa-stopwatch"></i> Exam</button>
-                        <button class="btn btn-theory start-theory-btn" data-subject="Agricultural Science"
-                            style="display: none;"><i class="fas fa-pen-nib"></i> Theory</button>
+                        <button class="btn btn-study start-study-btn" data-subject="Agricultural Science"><i class="fas fa-book-open"></i> Study</button>
+                        <button class="btn btn-exam start-exam-btn" data-subject="Agricultural Science"><i class="fas fa-stopwatch"></i> Exam</button>
+                        <button class="btn btn-theory start-theory-btn" data-subject="Agricultural Science" style="display: none;"><i class="fas fa-pen-nib"></i> Theory</button>
                     </div>
                 </div>
 
                 <div class="subject-card" data-available-for="JAMB WAEC NECO">
                     <div class="card-content">
-                        <div class="icon-box" style="background-color: #e0f7fa;"><i class="fas fa-landmark"
-                                style="color: #00838f;"></i></div>
-                        <div class="text-box">
-                            <h2>Government</h2>
-                        </div>
+                        <div class="icon-box" style="background-color: #e0f7fa;"><i class="fas fa-landmark" style="color: #00838f;"></i></div>
+                        <div class="text-box"><h2>Government</h2></div>
                     </div>
                     <div class="card-actions">
-                        <button class="btn btn-study start-study-btn" data-subject="Government"><i
-                                class="fas fa-book-open"></i> Study</button>
-                        <button class="btn btn-exam start-exam-btn" data-subject="Government"><i
-                                class="fas fa-stopwatch"></i> Exam</button>
-                        <button class="btn btn-theory start-theory-btn" data-subject="Government"
-                            style="display: none;"><i class="fas fa-pen-nib"></i> Theory</button>
+                        <button class="btn btn-study start-study-btn" data-subject="Government"><i class="fas fa-book-open"></i> Study</button>
+                        <button class="btn btn-exam start-exam-btn" data-subject="Government"><i class="fas fa-stopwatch"></i> Exam</button>
+                        <button class="btn btn-theory start-theory-btn" data-subject="Government" style="display: none;"><i class="fas fa-pen-nib"></i> Theory</button>
                     </div>
                 </div>
 
                 <div class="subject-card" data-available-for="JAMB WAEC NECO">
                     <div class="card-content">
-                        <div class="icon-box" style="background-color: #fce4ec;"><i class="fas fa-feather-alt"
-                                style="color: #c2185b;"></i></div>
-                        <div class="text-box">
-                            <h2>Literature</h2>
-                        </div>
+                        <div class="icon-box" style="background-color: #fce4ec;"><i class="fas fa-feather-alt" style="color: #c2185b;"></i></div>
+                        <div class="text-box"><h2>Literature</h2></div>
                     </div>
                     <div class="card-actions">
-                        <button class="btn btn-study start-study-btn" data-subject="Literature-in-English"><i
-                                class="fas fa-book-open"></i> Study</button>
-                        <button class="btn btn-exam start-exam-btn" data-subject="Literature-in-English"><i
-                                class="fas fa-stopwatch"></i> Exam</button>
-                        <button class="btn btn-theory start-theory-btn" data-subject="Literature-in-English"
-                            style="display: none;"><i class="fas fa-pen-nib"></i> Theory</button>
+                        <button class="btn btn-study start-study-btn" data-subject="Literature-in-English"><i class="fas fa-book-open"></i> Study</button>
+                        <button class="btn btn-exam start-exam-btn" data-subject="Literature-in-English"><i class="fas fa-stopwatch"></i> Exam</button>
+                        <button class="btn btn-theory start-theory-btn" data-subject="Literature-in-English" style="display: none;"><i class="fas fa-pen-nib"></i> Theory</button>
                     </div>
                 </div>
 
                 <div class="subject-card" data-available-for="JAMB WAEC NECO">
                     <div class="card-content">
-                        <div class="icon-box" style="background-color: #efebe9;"><i class="fas fa-globe-africa"
-                                style="color: #5d4037;"></i></div>
-                        <div class="text-box">
-                            <h2>Geography</h2>
-                        </div>
+                        <div class="icon-box" style="background-color: #efebe9;"><i class="fas fa-globe-africa" style="color: #5d4037;"></i></div>
+                        <div class="text-box"><h2>Geography</h2></div>
                     </div>
                     <div class="card-actions">
-                        <button class="btn btn-study start-study-btn" data-subject="Geography"><i
-                                class="fas fa-book-open"></i> Study</button>
-                        <button class="btn btn-exam start-exam-btn" data-subject="Geography"><i
-                                class="fas fa-stopwatch"></i> Exam</button>
-                        <button class="btn btn-theory start-theory-btn" data-subject="Geography"
-                            style="display: none;"><i class="fas fa-pen-nib"></i> Theory</button>
+                        <button class="btn btn-study start-study-btn" data-subject="Geography"><i class="fas fa-book-open"></i> Study</button>
+                        <button class="btn btn-exam start-exam-btn" data-subject="Geography"><i class="fas fa-stopwatch"></i> Exam</button>
+                        <button class="btn btn-theory start-theory-btn" data-subject="Geography" style="display: none;"><i class="fas fa-pen-nib"></i> Theory</button>
                     </div>
                 </div>
 
                 <div class="subject-card" data-available-for="JAMB WAEC NECO">
                     <div class="card-content">
-                        <div class="icon-box" style="background-color: #fff8e1;"><i class="fas fa-praying-hands"
-                                style="color: #f57f17;"></i></div>
-                        <div class="text-box">
-                            <h2>CRK</h2>
-                        </div>
+                        <div class="icon-box" style="background-color: #fff8e1;"><i class="fas fa-praying-hands" style="color: #f57f17;"></i></div>
+                        <div class="text-box"><h2>CRK</h2></div>
                     </div>
                     <div class="card-actions">
-                        <button class="btn btn-study start-study-btn" data-subject="CRK"><i
-                                class="fas fa-book-open"></i> Study</button>
-                        <button class="btn btn-exam start-exam-btn" data-subject="CRK"><i class="fas fa-stopwatch"></i>
-                            Exam</button>
-                        <button class="btn btn-theory start-theory-btn" data-subject="CRK" style="display: none;"><i
-                                class="fas fa-pen-nib"></i> Theory</button>
+                        <button class="btn btn-study start-study-btn" data-subject="CRK"><i class="fas fa-book-open"></i> Study</button>
+                        <button class="btn btn-exam start-exam-btn" data-subject="CRK"><i class="fas fa-stopwatch"></i> Exam</button>
+                        <button class="btn btn-theory start-theory-btn" data-subject="CRK" style="display: none;"><i class="fas fa-pen-nib"></i> Theory</button>
                     </div>
                 </div>
 
                 <div class="subject-card" data-available-for="JAMB WAEC NECO">
                     <div class="card-content">
-                        <div class="icon-box" style="background-color: #e8eaf6;"><i class="fas fa-chart-line"
-                                style="color: #283593;"></i></div>
-                        <div class="text-box">
-                            <h2>Economics</h2>
-                        </div>
+                        <div class="icon-box" style="background-color: #e8eaf6;"><i class="fas fa-chart-line" style="color: #283593;"></i></div>
+                        <div class="text-box"><h2>Economics</h2></div>
                     </div>
                     <div class="card-actions">
-                        <button class="btn btn-study start-study-btn" data-subject="Economics"><i
-                                class="fas fa-book-open"></i> Study</button>
-                        <button class="btn btn-exam start-exam-btn" data-subject="Economics"><i
-                                class="fas fa-stopwatch"></i> Exam</button>
-                        <button class="btn btn-theory start-theory-btn" data-subject="Economics"
-                            style="display: none;"><i class="fas fa-pen-nib"></i> Theory</button>
+                        <button class="btn btn-study start-study-btn" data-subject="Economics"><i class="fas fa-book-open"></i> Study</button>
+                        <button class="btn btn-exam start-exam-btn" data-subject="Economics"><i class="fas fa-stopwatch"></i> Exam</button>
+                        <button class="btn btn-theory start-theory-btn" data-subject="Economics" style="display: none;"><i class="fas fa-pen-nib"></i> Theory</button>
                     </div>
                 </div>
 
                 <div class="subject-card" data-available-for="JAMB WAEC NECO">
                     <div class="card-content">
-                        <div class="icon-box" style="background-color: #e1f5fe;"><i class="fas fa-file-invoice-dollar"
-                                style="color: #0277bd;"></i></div>
-                        <div class="text-box">
-                            <h2>Accounting</h2>
-                        </div>
+                        <div class="icon-box" style="background-color: #e1f5fe;"><i class="fas fa-file-invoice-dollar" style="color: #0277bd;"></i></div>
+                        <div class="text-box"><h2>Accounting</h2></div>
                     </div>
                     <div class="card-actions">
-                        <button class="btn btn-study start-study-btn" data-subject="Financial Accounting"><i
-                                class="fas fa-book-open"></i> Study</button>
-                        <button class="btn btn-exam start-exam-btn" data-subject="Financial Accounting"><i
-                                class="fas fa-stopwatch"></i> Exam</button>
-                        <button class="btn btn-theory start-theory-btn" data-subject="Financial Accounting"
-                            style="display: none;"><i class="fas fa-pen-nib"></i> Theory</button>
+                        <button class="btn btn-study start-study-btn" data-subject="Financial Accounting"><i class="fas fa-book-open"></i> Study</button>
+                        <button class="btn btn-exam start-exam-btn" data-subject="Financial Accounting"><i class="fas fa-stopwatch"></i> Exam</button>
+                        <button class="btn btn-theory start-theory-btn" data-subject="Financial Accounting" style="display: none;"><i class="fas fa-pen-nib"></i> Theory</button>
                     </div>
                 </div>
 
                 <div class="subject-card" data-available-for="JAMB WAEC NECO">
                     <div class="card-content">
-                        <div class="icon-box" style="background-color: #fbe9e7;"><i class="fas fa-store"
-                                style="color: #d84315;"></i></div>
-                        <div class="text-box">
-                            <h2>Commerce</h2>
-                        </div>
+                        <div class="icon-box" style="background-color: #fbe9e7;"><i class="fas fa-store" style="color: #d84315;"></i></div>
+                        <div class="text-box"><h2>Commerce</h2></div>
                     </div>
                     <div class="card-actions">
-                        <button class="btn btn-study start-study-btn" data-subject="Commerce"><i
-                                class="fas fa-book-open"></i> Study</button>
-                        <button class="btn btn-exam start-exam-btn" data-subject="Commerce"><i
-                                class="fas fa-stopwatch"></i> Exam</button>
-                        <button class="btn btn-theory start-theory-btn" data-subject="Commerce"
-                            style="display: none;"><i class="fas fa-pen-nib"></i> Theory</button>
+                        <button class="btn btn-study start-study-btn" data-subject="Commerce"><i class="fas fa-book-open"></i> Study</button>
+                        <button class="btn btn-exam start-exam-btn" data-subject="Commerce"><i class="fas fa-stopwatch"></i> Exam</button>
+                        <button class="btn btn-theory start-theory-btn" data-subject="Commerce" style="display: none;"><i class="fas fa-pen-nib"></i> Theory</button>
                     </div>
                 </div>
 
                 <div class="subject-card" data-available-for="WAEC NECO">
                     <div class="card-content">
-                        <div class="icon-box" style="background-color: #fff3e0;"><i class="fas fa-users"
-                                style="color: #ef6c00;"></i></div>
-                        <div class="text-box">
-                            <h2>Civic Education</h2>
-                        </div>
+                        <div class="icon-box" style="background-color: #fff3e0;"><i class="fas fa-users" style="color: #ef6c00;"></i></div>
+                        <div class="text-box"><h2>Civic Education</h2></div>
                     </div>
                     <div class="card-actions">
-                        <button class="btn btn-study start-study-btn" data-subject="Civic Education"><i
-                                class="fas fa-book-open"></i> Study</button>
-                        <button class="btn btn-exam start-exam-btn" data-subject="Civic Education"><i
-                                class="fas fa-stopwatch"></i> Exam</button>
-                        <button class="btn btn-theory start-theory-btn" data-subject="Civic Education"
-                            style="display: none;"><i class="fas fa-pen-nib"></i> Theory</button>
+                        <button class="btn btn-study start-study-btn" data-subject="Civic Education"><i class="fas fa-book-open"></i> Study</button>
+                        <button class="btn btn-exam start-exam-btn" data-subject="Civic Education"><i class="fas fa-stopwatch"></i> Exam</button>
+                        <button class="btn btn-theory start-theory-btn" data-subject="Civic Education" style="display: none;"><i class="fas fa-pen-nib"></i> Theory</button>
                     </div>
                 </div>
 
                 <div class="subject-card" data-available-for="WAEC NECO">
                     <div class="card-content">
-                        <div class="icon-box" style="background-color: #e0f7fa;"><i class="fas fa-laptop-code"
-                                style="color: #00838f;"></i></div>
-                        <div class="text-box">
-                            <h2>Data Processing</h2>
-                        </div>
+                        <div class="icon-box" style="background-color: #e0f7fa;"><i class="fas fa-laptop-code" style="color: #00838f;"></i></div>
+                        <div class="text-box"><h2>Data Processing</h2></div>
                     </div>
                     <div class="card-actions">
-                        <button class="btn btn-study start-study-btn" data-subject="Data Processing"><i
-                                class="fas fa-book-open"></i> Study</button>
-                        <button class="btn btn-exam start-exam-btn" data-subject="Data Processing"><i
-                                class="fas fa-stopwatch"></i> Exam</button>
-                        <button class="btn btn-theory start-theory-btn" data-subject="Data Processing"
-                            style="display: none;"><i class="fas fa-pen-nib"></i> Theory</button>
+                        <button class="btn btn-study start-study-btn" data-subject="Data Processing"><i class="fas fa-book-open"></i> Study</button>
+                        <button class="btn btn-exam start-exam-btn" data-subject="Data Processing"><i class="fas fa-stopwatch"></i> Exam</button>
+                        <button class="btn btn-theory start-theory-btn" data-subject="Data Processing" style="display: none;"><i class="fas fa-pen-nib"></i> Theory</button>
                     </div>
                 </div>
 
                 <div class="subject-card" data-available-for="WAEC NECO">
                     <div class="card-content">
-                        <div class="icon-box" style="background-color: #ede7f6;"><i class="fas fa-superscript"
-                                style="color: #4527a0;"></i></div>
-                        <div class="text-box">
-                            <h2>Further Math</h2>
-                        </div>
+                        <div class="icon-box" style="background-color: #ede7f6;"><i class="fas fa-superscript" style="color: #4527a0;"></i></div>
+                        <div class="text-box"><h2>Further Math</h2></div>
                     </div>
                     <div class="card-actions">
-                        <button class="btn btn-study start-study-btn" data-subject="Further Mathematics"><i
-                                class="fas fa-book-open"></i> Study</button>
-                        <button class="btn btn-exam start-exam-btn" data-subject="Further Mathematics"><i
-                                class="fas fa-stopwatch"></i> Exam</button>
-                        <button class="btn btn-theory start-theory-btn" data-subject="Further Mathematics"
-                            style="display: none;"><i class="fas fa-pen-nib"></i> Theory</button>
+                        <button class="btn btn-study start-study-btn" data-subject="Further Mathematics"><i class="fas fa-book-open"></i> Study</button>
+                        <button class="btn btn-exam start-exam-btn" data-subject="Further Mathematics"><i class="fas fa-stopwatch"></i> Exam</button>
+                        <button class="btn btn-theory start-theory-btn" data-subject="Further Mathematics" style="display: none;"><i class="fas fa-pen-nib"></i> Theory</button>
                     </div>
                 </div>
 
@@ -454,12 +338,9 @@
                 <i class="fas fa-lock" style="font-size: 3rem; color: #f79a00; margin-bottom: 15px;"></i>
                 <h2>Free Trials Exhausted!</h2>
                 <p>Upgrade to Premium to unlock unlimited Objectives, Theory, and JAMB Drills.</p>
-                <div class="pricing-box">
-                    <h3>₦1,500 <span>/ month</span></h3>
-                </div>
+                <div class="pricing-box"><h3>₦1,500 <span>/ month</span></h3></div>
                 <button id="subscribe-btn" class="btn btn-exam" style="width: 100%;">Pay securely with Paystack</button>
-                <button id="cancel-paywall-btn" class="btn btn-outline" style="width: 100%; margin-top: 10px;">Back to
-                    Dashboard</button>
+                <button id="cancel-paywall-btn" class="btn btn-outline" style="width: 100%; margin-top: 10px;">Back to Dashboard</button>
             </div>
         </section>
 
@@ -483,14 +364,10 @@
                 </div>
                 <h3 id="question-text">Loading question...</h3>
                 <div class="options-container">
-                    <label class="custom-option"><input type="radio" name="option" value="0"><span
-                            class="radio-box"></span><span class="option-text" id="option-a">Option A</span></label>
-                    <label class="custom-option"><input type="radio" name="option" value="1"><span
-                            class="radio-box"></span><span class="option-text" id="option-b">Option B</span></label>
-                    <label class="custom-option"><input type="radio" name="option" value="2"><span
-                            class="radio-box"></span><span class="option-text" id="option-c">Option C</span></label>
-                    <label class="custom-option"><input type="radio" name="option" value="3"><span
-                            class="radio-box"></span><span class="option-text" id="option-d">Option D</span></label>
+                    <label class="custom-option"><input type="radio" name="option" value="0"><span class="radio-box"></span><span class="option-text" id="option-a">Option A</span></label>
+                    <label class="custom-option"><input type="radio" name="option" value="1"><span class="radio-box"></span><span class="option-text" id="option-b">Option B</span></label>
+                    <label class="custom-option"><input type="radio" name="option" value="2"><span class="radio-box"></span><span class="option-text" id="option-c">Option C</span></label>
+                    <label class="custom-option"><input type="radio" name="option" value="3"><span class="radio-box"></span><span class="option-text" id="option-d">Option D</span></label>
                 </div>
             </main>
 
@@ -500,66 +377,49 @@
                 <h1 id="score-display">0/0</h1>
                 <p id="feedback-text" style="margin-bottom: 30px;"></p>
                 <div style="display: flex; justify-content: center; gap: 15px; flex-wrap: wrap;">
-                    <button id="review-btn" class="btn btn-exam"><i class="fas fa-list-check"></i> Review
-                        Answers</button>
-                    <button id="restart-btn" class="btn btn-study" onclick="location.reload()"><i
-                            class="fas fa-home"></i> Dashboard</button>
+                    <button id="review-btn" class="btn btn-exam"><i class="fas fa-list-check"></i> Review Answers</button>
+                    <button id="restart-btn" class="btn btn-study" onclick="location.reload()"><i class="fas fa-home"></i> Dashboard</button>
                 </div>
             </section>
 
             <footer class="cbt-footer">
                 <button id="prev-btn" class="btn-nav btn-outline"><i class="fas fa-chevron-left"></i> Previous</button>
                 <button id="next-btn" class="btn-nav btn-primary">Next <i class="fas fa-chevron-right"></i></button>
-                <button id="submit-btn" class="btn-nav btn-danger" style="display:none;"><i
-                        class="fas fa-paper-plane"></i> Submit</button>
+                <button id="submit-btn" class="btn-nav btn-danger" style="display:none;"><i class="fas fa-paper-plane"></i> Submit</button>
             </footer>
         </div>
 
         <div class="cbt-container" id="theory-interface" style="display: none;">
             <header class="cbt-topbar" style="background-color: #3b2b50; border-bottom: 4px solid #6b4c9a;">
-                <div class="cbt-exam-info"><i class="fas fa-pen-nib"></i>
-                    <h2 id="theory-subject-title">Theory Section</h2>
-                </div>
+                <div class="cbt-exam-info"><i class="fas fa-pen-nib"></i><h2 id="theory-subject-title">Theory Section</h2></div>
                 <div class="cbt-timer-group">
-                    <div class="cbt-timer" style="background: #e67e22;"><i class="fas fa-clock"></i> <span
-                            id="theory-time-display">00:00</span></div>
-                    <button id="theory-quit-btn" class="btn-quit" title="Cancel Exam"><i
-                            class="fas fa-power-off"></i></button>
+                    <div class="cbt-timer" style="background: #e67e22;"><i class="fas fa-clock"></i> <span id="theory-time-display">00:00</span></div>
+                    <button id="theory-quit-btn" class="btn-quit" title="Cancel Exam"><i class="fas fa-power-off"></i></button>
                 </div>
             </header>
             <main class="cbt-main">
-                <div class="question-header"><span class="q-badge" id="theory-question-tracker"
-                        style="background: #f3e5f5; color: #8e24aa;">Question 1 of 5</span></div>
+                <div class="question-header"><span class="q-badge" id="theory-question-tracker" style="background: #f3e5f5; color: #8e24aa;">Question 1 of 5</span></div>
                 <h3 id="theory-question-text" style="margin-bottom: 20px;">Loading theory question...</h3>
-                <textarea id="theory-answer-box" class="theory-textarea"
-                    placeholder="Type your full detailed answer here..."></textarea>
+                <textarea id="theory-answer-box" class="theory-textarea" placeholder="Type your full detailed answer here..."></textarea>
             </main>
             <section class="result-area" id="theory-result-area" style="display: none;">
-                <i class="fas fa-clipboard-check" style="font-size: 4rem; color: #6b4c9a;"></i>
-                <h2>Theory Submitted!</h2>
-                <p style="margin-bottom: 30px; color: #555;">Proceed to the Self-Grading Marking Scheme to score your
-                    answers.</p>
+                <i class="fas fa-clipboard-check" style="font-size: 4rem; color: #6b4c9a;"></i><h2>Theory Submitted!</h2>
+                <p style="margin-bottom: 30px; color: #555;">Proceed to the Self-Grading Marking Scheme to score your answers.</p>
                 <div style="display: flex; justify-content: center; gap: 15px; flex-wrap: wrap;">
-                    <button id="theory-review-btn" class="btn btn-exam" style="background: #6b4c9a;"><i
-                            class="fas fa-glasses"></i> Open Marking Scheme</button>
-                    <button class="btn btn-study" onclick="location.reload()"><i class="fas fa-home"></i>
-                        Dashboard</button>
+                    <button id="theory-review-btn" class="btn btn-exam" style="background: #6b4c9a;"><i class="fas fa-glasses"></i> Open Marking Scheme</button>
+                    <button class="btn btn-study" onclick="location.reload()"><i class="fas fa-home"></i> Dashboard</button>
                 </div>
             </section>
             <footer class="cbt-footer">
-                <button id="theory-prev-btn" class="btn-nav btn-outline"><i class="fas fa-chevron-left"></i>
-                    Previous</button>
-                <button id="theory-next-btn" class="btn-nav btn-primary" style="background: #6b4c9a;">Next <i
-                        class="fas fa-chevron-right"></i></button>
-                <button id="theory-submit-btn" class="btn-nav btn-danger" style="display:none;"><i
-                        class="fas fa-paper-plane"></i> Submit Theory</button>
+                <button id="theory-prev-btn" class="btn-nav btn-outline"><i class="fas fa-chevron-left"></i> Previous</button>
+                <button id="theory-next-btn" class="btn-nav btn-primary" style="background: #6b4c9a;">Next <i class="fas fa-chevron-right"></i></button>
+                <button id="theory-submit-btn" class="btn-nav btn-danger" style="display:none;"><i class="fas fa-paper-plane"></i> Submit Theory</button>
             </footer>
         </div>
 
         <section class="screen" id="review-screen" style="display: none;">
             <div class="screen-header">
-                <button id="back-to-results-btn" class="back-btn"><i class="fas fa-arrow-left"></i> Back to
-                    Score</button>
+                <button id="back-to-results-btn" class="back-btn"><i class="fas fa-arrow-left"></i> Back to Score</button>
                 <h1>Objective Answers</h1>
             </div>
             <div id="review-content"></div>
@@ -582,5 +442,4 @@
     <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore-compat.js"></script>
     <script src="app.js"></script>
 </body>
-
 </html>
